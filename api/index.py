@@ -1,4 +1,4 @@
-def handler(request):
+ef handler(request):
     return {
         "statusCode": 200,
         "headers": {
@@ -6,6 +6,7 @@ def handler(request):
         },
         "body": "✅ Fastwater callback active"
     }
+
 
 Fix the final handler for Vercel
 
