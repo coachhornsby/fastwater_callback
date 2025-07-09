@@ -1,9 +1,8 @@
-def handler(request):
-    return {
-        "statusCode": 200,
-        "headers": {
-            "Content-Type": "text/plain"
-        },
-        "body": "✅ Fastwater callback active"
-    }
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "✅ Fastwater callback active", 200
 
