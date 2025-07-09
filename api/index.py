@@ -8,5 +8,4 @@ def handler(request):
     }
 
 
-Fix the final handler for Vercel
 
