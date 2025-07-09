@@ -7,5 +7,3 @@ def handler(request):
         "body": "✅ Fastwater callback active"
     }
 
-
-
