@@ -5,5 +5,5 @@ def handler(request):
         "body": "✅ Fastwater callback active"
     }
 
-Fix final handler for Vercel
+Fix the final handler for Vercel
 
